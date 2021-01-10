@@ -1,0 +1,176 @@
+body{
+    box-sizing: border-box;
+    
+}
+.container2{
+    width:64%;
+    float: right;
+}
+.col-sm-3{
+    background-color: #333333;
+    color: white;
+}
+.cvName{
+    margin:40px;
+}
+.devider{
+    height: 20px;
+    margin-top: 16px;
+    background-color:#333333 ;
+}
+.jopTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #888;
+    margin-left: 40px;
+}
+.contacts .media{
+    margin-right: 10px;
+}
+.contacts i{
+    font-size: 35px;
+    margin-left: 20px;
+}
+.contacts h2{
+    margin-bottom: 40px;
+}
+.img{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: url("../images/0.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 60%;
+}
+hr{
+    background-color: white;
+}
+.media{
+    margin:15px;
+}
+.media a{
+    color: white;
+}
+.reimg{
+    border-radius: 5px;
+}
+.education{
+    margin-top: 100px;
+}
+.education ul li{
+    font-size: 18px;
+}
+.hr{
+    height: 2px;
+    background-color:#333333 ;
+}
+.tec ul li, .Askills, .experince, .Vexperince{
+    line-height: 35px;
+    font-size: 18px;
+}
+.progress{
+    height: 23px;
+    margin: 10px;
+}
+.Vexperince .media-body{
+    margin-left: 10px;
+}
+@media (min-width: 576px) { 
+    .jopTitle{
+        font-size: 16px;
+    }
+    .img{
+        height: 140px;
+        width: 80%;
+    }
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .contacts i{
+        font-size: 25px;
+    }
+    .tec ul li{
+        line-height: 35px;
+        font-size: 9px;
+    }
+    .contacts ul li, .contacts .media div{
+        font-size: 10px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .jopTitle{
+        font-size: 20px;
+    }
+    .img{
+        height: 170px;
+        width: 70%;
+    }
+    .contacts img{
+        width: 30px;
+        height: 30px;
+    }
+    .contacts i{
+        font-size: 25px;
+    }
+    .tec ul li{
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .contacts ul li, .contacts .media div{
+        font-size: 16px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .jopTitle{
+        font-size: 21px;
+    }
+    .img{
+        height: 180px;
+        width: 75%;
+    }
+    .contacts img{
+        width: 44px;
+        height: 44px;
+    }
+    .contacts i{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .tec ul li{
+        line-height: 35px;
+        font-size: 18px;
+    }
+    .contacts ul li, .contacts .media div{
+        font-size: 18px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .jopTitle{
+        font-size: 30px;
+    }
+    .img{
+        height: 200px;
+        width: 60%;
+    }
+    .contacts img{
+        width: 44px;
+        height: 44px;
+    }
+    .contacts i{
+        font-size: 35px;
+    }
+    .tec ul li{
+        line-height: 35px;
+        font-size: 18px;
+    }
+    .contacts ul li, .contacts .media div{
+        font-size: 18px;
+    }
+}
