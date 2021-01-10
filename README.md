@@ -1,2 +1,2 @@
-# My-CV
-https://blissful-kowalevski-72432f.netlify.app/
+# My_CV
+https://quirky-wilson-a1998b.netlify.app/
